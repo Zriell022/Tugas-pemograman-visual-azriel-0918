@@ -4,6 +4,9 @@
  */
 package aplikasi_penjualan;
 
+import javax.swing.JFrame;
+import tampilan.pelanggan;
+
 /**
  *
  * @author My-Lenovo
@@ -14,7 +17,16 @@ public class Aplikasi_Penjualan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+//        System.out.println("Hello World!");
+//        pelanggan frame = new pelanggan("Form Barang");
+
+        pelanggan panel = new pelanggan(); // panggil class kamu
+//        Barang panel = new Barang();
+//        panel.setContentPane(panel);
+//        panel.setSize(525, 1000); // sesuaikan ukuran
+        panel.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        panel.setLocationRelativeTo(null); // posisi tengah
+        panel.setVisible(true);
     }
     
 }
