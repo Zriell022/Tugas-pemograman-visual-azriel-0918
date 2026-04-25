@@ -5,7 +5,7 @@
 package aplikasi_penjualan;
 
 import javax.swing.JFrame;
-import tampilan.pelanggan;
+import tampilan.Kasir;
 
 /**
  *
@@ -20,7 +20,7 @@ public class Aplikasi_Penjualan {
 //        System.out.println("Hello World!");
 //        pelanggan frame = new pelanggan("Form Barang");
 
-        pelanggan panel = new pelanggan(); // panggil class kamu
+        Kasir panel = new Kasir(); // panggil class kamu
 //        Barang panel = new Barang();
 //        panel.setContentPane(panel);
 //        panel.setSize(525, 1000); // sesuaikan ukuran
